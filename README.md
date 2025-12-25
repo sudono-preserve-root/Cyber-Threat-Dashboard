@@ -5,11 +5,8 @@ Features:
 Real-time monitoring of security-related events,
 
 IP-based threat detection with in-memory blacklist support,
-
 Centralized dashboard for alerts and activity summaries,
-
 Configurable rules via external configuration files,
-
 Modular design for future expansion (IDS, SIEM, APIs),
 
 This project is intended for educational and demonstration purposes only and is not a replacement for enterprise security monitoring solutions.
