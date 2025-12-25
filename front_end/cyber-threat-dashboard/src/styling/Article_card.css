@@ -1,0 +1,58 @@
+.card{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    border: .1vw solid black;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 1.25vw;
+    margin: .95vw;
+
+}
+
+.upperRow{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: .95vw;
+    font-size: .85vw;
+}
+
+.description, .severity{
+    margin-right: .95vw;
+    margin-left: .95vw;
+    font-size: .85vw;
+    margin-top: 1.2vh;
+}
+
+.tagRow{
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: auto;
+}
+
+.severity{
+    display: flex;
+    font-size: .85vw;
+    font-weight: bolder;
+}
+
+.tag{
+    margin-left: .95vw;
+    padding: .5vw;
+    border: .1vw solid rgb(0, 0, 0);
+    border-radius: 15%;
+    margin-top: .75vw;
+    font-size: .85vw;
+}
+a{
+    text-decoration: None;
+    color: black;
+    
+}

@@ -1,0 +1,32 @@
+.feedRow{
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.feedItem{
+    width: 32%;
+    margin-top: 15px;
+}
+
+.addRow{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+}
+
+button{
+    width: 25%;
+    color: black;
+    background-color: rgb(245, 246, 250);
+    background-image: linear-gradient(rgb(235, 238, 244), rgb(245, 246, 250));
+    box-shadow: rgb(189, 199, 219) 0px -1px 0px inset;
+    border: 1px solid rgb(245, 246, 250);
+}
+
+button:hover{
+    background-color: gray;
+}

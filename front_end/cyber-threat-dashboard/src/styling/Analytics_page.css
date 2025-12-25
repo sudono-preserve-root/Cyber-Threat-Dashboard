@@ -1,0 +1,13 @@
+.titleContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.55vw;
+}
+
+
+p, select{
+    margin-right: 1%;
+}
+
